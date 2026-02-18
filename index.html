@@ -3,43 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>2Easy4Ballers</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-        }
-        header {
-            background-color: #4CAF50;
-            color: white;
-            padding: 15px;
-            text-align: center;
-        }
-        main {
-            padding: 20px;
-        }
-        footer {
-            text-align: center;
-            padding: 10px;
-            background-color: #4CAF50;
-            color: white;
-            position: fixed;
-            width: 100%;
-            bottom: 0;
-        }
-    </style>
+    <title>My Fully Functional Website</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>Welcome to 2Easy4Ballers</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
     </header>
     <main>
-        <h2>Your Go-To Source for All Things Basketball</h2>
-        <p>Stay updated with the latest news, scores, and schedules.</p>
+        <section id="home">
+            <h1>Welcome to My Website</h1>
+            <p>This is an example of a fully functional website!</p>
+        </section>
+        <section id="about">
+            <h2>About Us</h2>
+            <p>We aim to provide the best services for our clients.</p>
+        </section>
+        <section id="services">
+            <h2>Our Services</h2>
+            <p>We offer a range of services to meet your needs.</p>
+        </section>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <input type="submit" value="Submit">
+            </form>
+        </section>
     </main>
     <footer>
-        <p>&copy; 2026 2Easy4Ballers. All rights reserved.</p>
+        <p>&copy; 2026 My Website. All rights reserved.</p>
     </footer>
 </body>
 </html>
